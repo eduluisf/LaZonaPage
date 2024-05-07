@@ -1,0 +1,76 @@
+/* Navbar.css */
+
+nav {
+    background-color: black;
+    color: white;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding:  16px 32px ;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  .logo {
+    margin-left: 20px; /* Ajusta el margen según sea necesario */
+  }
+  
+  .navList{
+
+    margin: 16px auto ;
+    
+  }
+
+  .navList  li  a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 14px 16px;
+
+    margin: 0px 32px;
+    color: white;
+    border-radius: 8px;
+    border:#F2BB16;
+  }
+
+
+  .contactButton{
+
+    width: 162px;
+    height: 43px;
+   margin-top: 16px;
+
+    text-decoration: none;
+    background-color: black;
+    color: #F2BB16;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#F2BB16;
+  }
+
+
+
+
+  .contactButton:hover {
+    box-shadow: 0px 0px 30px 0px rgba(255,255,2555,0.35);
+     color:black  ;
+     background-color:#F2BB16;
+  }
+  
+  /* Para centrar los elementos */
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Para el botón de contacto */
+  .right {
+    float: right;
+  }
+  

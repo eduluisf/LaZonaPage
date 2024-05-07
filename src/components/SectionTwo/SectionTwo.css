@@ -1,0 +1,40 @@
+.sectionTwoContent {
+
+    width: 100%;
+    background-color: #F2BB16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    position:absolute; /* Set on the parent */
+  
+    top: 180%; /* Apply top as needed */
+
+    margin-bottom: 30%;
+    
+ 
+}
+
+
+
+
+
+
+.sectionTwoContainer {
+
+margin:10% 0px;
+
+
+
+}
+
+.imgSectionTwo {
+
+
+ 
+    width: 100%;
+
+    margin: 5% 0%;
+
+}
+

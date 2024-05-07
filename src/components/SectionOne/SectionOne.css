@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../../fonts/Coalition_v2..ttf')  /* Ruta a tu archivo de fuente */
+  }
+  
+
+
+
+.sectionOneContainer{
+
+    width: 100%;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative; /* Set on the parent */
+  
+}
+
+
+.sectionOneContainer p{
+
+color:white
+
+
+}
+
+.sectionOneContainer h1{
+
+
+ 
+    font-family: 'MiFuente', sans-serif;
+    color: #F2BB16;
+
+    font-size: 64px;
+
+ 
+}
+
+
+.imgSectionOne{
+
+
+    width: 100%;
+z-index: 1;
+
+position: relative;
+    top: -128px; 
+      
+
+  
+}

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../../fonts/Coalition_v2..ttf')  /* Ruta a tu archivo de fuente */
+  }
+  
+
+
+
+.sectionThreeContainer{
+
+  position: relative;
+margin-top: 20%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color:  #F2BB16;
+
+  z-index: 0;;
+
+}
+
+
+.sectionThreeContainer .sectionThreeContent{
+
+
+  width: 30%;
+  margin-right: 10%;
+  padding: 0px 10%;
+}
+
+
+
+.imgTHree-one{
+
+  width: 30%;
+
+}
