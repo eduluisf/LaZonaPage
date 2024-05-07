@@ -1,20 +1,45 @@
-@font-face {
-    font-family: 'MiFuente';
-    src: url('../../fonts/Coalition_v2..ttf')  /* Ruta a tu archivo de fuente */
+
+
+
+  .passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
   }
   
 
-
-
-.sectionThreeContainer{
+.sectionThreeContainer-Main{
 
   position: relative;
-margin-top: 20%;
+  margin-top: 20%;
   display: flex;
   align-items: center;
   width: 100%;
   background-color:  #F2BB16;
+  align-items: colum;
+  z-index: 0;;
 
+}
+
+
+.sectionThreeContainer{
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-items: row;
   z-index: 0;;
 
 }
@@ -26,6 +51,16 @@ margin-top: 20%;
   width: 30%;
   margin-right: 10%;
   padding: 0px 10%;
+}
+
+.sectionThreeContent h3{
+
+ 
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  font-size: 72px;
+  
 }
 
 
