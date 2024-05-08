@@ -1,0 +1,87 @@
+
+  
+
+.sectionFourContainer-Main{
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color:  black;
+
+} 
+
+
+.sectionFourContainer{
+
+  display: flex;
+  align-items: center;
+width: 80%;
+  align-items: row;
+color: #F2BB16;
+margin-top: 10%;
+
+}
+
+
+.sectionFourContainer .ssectionFourContent{
+
+
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+
+
+  margin-bottom: 32px;
+}
+
+.sectionFourContent h3{
+
+ 
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  font-size: 72px;
+
+ color: #F2BB16;
+ margin:  0px 128px 0px 0px;
+  
+}
+
+.sectionFourContainer p{
+
+ 
+
+font-size: 18px;
+
+color: white;
+
+
+}
+
+
+.sectionFourContent-Two{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.sectionThreeContent-Three{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.imgTHree-one{
+
+  width: 30%;
+
+}

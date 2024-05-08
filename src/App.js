@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import SectionOne from './components/SectionOne/SectionOne'; 
 import SectionTwo from './components/SectionTwo/SectionTwo'; 
 import SectionThree from './components/SectionThree/SectionThree';
+import SectionFour from './components/SectionFour/SectionFour';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SectionOne />
       <SectionTwo/>
       <SectionThree/>
+      <SectionFour/>
 
     </div>
   );

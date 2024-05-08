@@ -25,10 +25,11 @@
   position: relative;
   margin-top: 20%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 100%;
   background-color:  #F2BB16;
-  align-items: colum;
+
   z-index: 0;;
 
 }
@@ -51,6 +52,7 @@
   width: 30%;
   margin-right: 10%;
   padding: 0px 10%;
+  margin-bottom: 32px;
 }
 
 .sectionThreeContent h3{
@@ -65,8 +67,28 @@
 
 
 
+
+.sectionThreeContent-Two{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.sectionThreeContent-Three{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
 .imgTHree-one{
 
   width: 30%;
 
 }
+
+
