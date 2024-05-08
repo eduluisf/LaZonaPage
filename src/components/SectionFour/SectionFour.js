@@ -1,8 +1,8 @@
 import React from "react";
 import './SectionFour.css';
-import image3_1 from '../../assets/Image3_1.png';
+import image4_1 from '../../assets/Image4_1.png';
 
-const SectionOne = () => {
+const SectionFour = () => {
     return (
         <div className="sectionFourContainer-Main">
 
@@ -15,13 +15,13 @@ const SectionOne = () => {
              </div>
 
             <div className="sectionFourContent-Two">
-                <img className="imgThree-1" src={image3_1 } alt="fondo" />
-                <img className="imgThree-2" src={image3_1 } alt="fondo" />
+                <img className="imgFour-1" src={image4_1 } alt="fondo" />
+                <img className="imgFour-2" src={image4_1 } alt="fondo" />
             </div>
 
             <div className="sectionFourContent-Three">
-                <img className="imgTHree-3" src={image3_1 } alt="fondo" />
-                <img className="imgThree-4" src={image3_1 } alt="fondo" />
+                <img className="imgFour-3" src={image4_1 } alt="fondo" />
+                <img className="imgFour-4" src={image4_1 } alt="fondo" />
             </div>
         
 
@@ -35,7 +35,7 @@ const SectionOne = () => {
 
 }
 
-export default SectionOne;
+export default SectionFour;
 
 
 

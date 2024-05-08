@@ -18,10 +18,11 @@
 
   display: flex;
   align-items: center;
-width: 80%;
+width: 85%;
   align-items: row;
 color: #F2BB16;
 margin-top: 10%;
+margin-bottom: 32px;
 
 }
 
@@ -36,6 +37,7 @@ margin-top: 10%;
 
 
   margin-bottom: 32px;
+  margin-bottom: 30%;
 }
 
 .sectionFourContent h3{
@@ -55,10 +57,12 @@ margin-top: 10%;
 
  
 
+  width: 50%;
+
 font-size: 18px;
 
 color: white;
-
+margin-right: 5%;
 
 }
 
@@ -66,22 +70,44 @@ color: white;
 .sectionFourContent-Two{
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-between;
+  width: 85%;
   margin-bottom: 32px;
   margin-top: 32px;
 }
 
-.sectionThreeContent-Three{
+.sectionFourContent-Three{
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-between;
+  width: 85%;
+  margin-bottom: 20%;
 }
 
 
-.imgTHree-one{
 
-  width: 30%;
+.sectionFourContent-Two img{
+  border: white 1px solid;
+  border-radius: 8px ;
+  width: 48%;
+}
+
+.sectionFourContent-Three img{
+  border: white 1px solid;
+  border-radius: 8px ;
+  width: 48%;
+}
+
+.sectionFourContent-Two img:hover{
+  box-shadow: white  0px 5px 30px -10px;
+  border-radius: 8px;
+  scale:1.02;
+
+}
+
+.sectionFourContent-Three img:hover{
+  box-shadow:  white  0px 5px 30px -10px;
+  border-radius: 8px;
+  scale:1.02;
 
 }
