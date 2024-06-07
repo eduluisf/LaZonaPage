@@ -1,10 +1,10 @@
 import React from "react";
-
+import WhatsAppButton from '../../components/WhatsAppButton/WhatsAppButton';
 
 const Services = () => {
     return (
   
-<div>p</div>
+        <WhatsAppButton phoneNumber="+573155355980" />
     );
 
 }
