@@ -6,7 +6,7 @@ const SectionOne = () => {
     return (
         <div className="sectionOneContainer">
             <p>CONSTRUYENDO</p>
-            <h1>publicidad</h1>
+            <h1>PUBLICIDAD</h1>
             <img className="imgSectionOne" src={fondo} alt="fondo" />
         </div>
 

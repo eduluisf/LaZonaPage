@@ -3,6 +3,7 @@
 nav {
     background-color: black;
     color: white;
+
   }
   
   ul {
@@ -27,31 +28,41 @@ nav {
   }
 
   .navList  li  a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
     text-decoration: none;
     color: white;
     display: block;
     padding: 14px 16px;
-
+    font-weight: 600;
     margin: 0px 32px;
     color: white;
     border-radius: 8px;
     border:#F2BB16;
   }
 
+  .navList  li  a:hover{
+   
+    color:#F2BB16;
+  
+  }
+
+
 
   .contactButton{
 
-    width: 162px;
+    width: 200px;
     height: 43px;
    margin-top: 16px;
 
     text-decoration: none;
     background-color: black;
     color: #F2BB16;
+    border:#F2BB16 2px solid;
     border-radius: 8px;
-    border-width: 1px;
     border-style: solid;
     border-color:#F2BB16;
+    font-size: 18px;
   }
 
 
@@ -72,5 +83,6 @@ nav {
   /* Para el botón de contacto */
   .right {
     float: right;
+
   }
   

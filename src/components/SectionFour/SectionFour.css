@@ -59,7 +59,7 @@ margin-bottom: 32px;
 
   width: 50%;
 
-font-size: 18px;
+font-size: 22px;
 
 color: white;
 margin-right: 5%;
@@ -81,33 +81,8 @@ margin-right: 5%;
   align-items: center;
   justify-content: space-between;
   width: 85%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 
 
-.sectionFourContent-Two img{
-  border: white 1px solid;
-  border-radius: 8px ;
-  width: 48%;
-}
-
-.sectionFourContent-Three img{
-  border: white 1px solid;
-  border-radius: 8px ;
-  width: 48%;
-}
-
-.sectionFourContent-Two img:hover{
-  box-shadow: white  0px 5px 30px -10px;
-  border-radius: 8px;
-  scale:1.02;
-
-}
-
-.sectionFourContent-Three img:hover{
-  box-shadow:  white  0px 5px 30px -10px;
-  border-radius: 8px;
-  scale:1.02;
-
-}

@@ -1,0 +1,47 @@
+.iconsContainer{
+display: flex;
+flex-direction: column;
+bottom: 40px;
+position: fixed;
+z-index: 1000;
+justify-content: space-between;
+width: 96%;
+align-items: flex-end;
+}
+
+
+
+.iconsContainer li{
+
+
+margin:5px
+
+
+}
+
+.whatsapp-button {
+
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 3px #222222;
+  
+    text-decoration: none;
+    border: white 1px solid ;
+    width: 70px;
+    height: 70px;
+   
+  }
+
+
+
+
+  
+  .whatsapp-button:hover {
+    background-color: #7d610d;
+ 
+  }
+  
