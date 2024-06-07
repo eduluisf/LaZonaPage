@@ -1,27 +1,31 @@
-import React from 'react';
-
+import React, { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import SectionOne from './components/SectionOne/SectionOne'; 
-import SectionTwo from './components/SectionTwo/SectionTwo'; 
-import SectionThree from './components/SectionThree/SectionThree';
-import SectionFour from './components/SectionFour/SectionFour';
-import SectionFive from './components/SectionFive/SectionFive';
-import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
 
+import Services from './pages/services/services';
+import Home from './pages/home/home';
 
 function App() {
+  const [currentView, setCurrentView] = useState('home');
+
+  const renderView = () => {
+    switch (currentView) {
+      case 'home':
+        return  <Home/>;
+          
+      case 'services':
+        return <Services />;
+      case 'projects':
+        return <div>Projects Page Content</div>;
+      default:
+        return <div>404 Not Found</div>;
+    }
+  };
+
   return (
     <div>
-      <Navbar />
-      <SectionOne />
-      <SectionTwo/>
-      <SectionThree/>
-      <SectionFour/>
-      <SectionFive/>
-
-      <WhatsAppButton phoneNumber="+573155355980" />
-
+      <Navbar setCurrentView={setCurrentView} />
+      {renderView()}
     </div>
   );
 }
