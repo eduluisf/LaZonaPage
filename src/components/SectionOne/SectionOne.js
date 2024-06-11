@@ -7,7 +7,7 @@ import 'animate.css';
 const SectionOne = () => {
     return (
         <div className="sectionOneContainer ">
-            <div className="animate__animated animate__fadeInRight">
+            <div className=" textContainer animate__animated animate__fadeInRight">
                 
             <p>CONSTRUYENDO</p>
             <h1>PUBLICIDAD</h1>

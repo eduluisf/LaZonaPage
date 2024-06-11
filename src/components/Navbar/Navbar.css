@@ -3,14 +3,16 @@
 nav {
   background-color: black;
   color: white;
-
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding:  16px 32px ;
+  padding: 16px 32px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 li {
@@ -21,69 +23,95 @@ li {
   margin-left: 20px; /* Ajusta el margen según sea necesario */
 }
 
-.navList{
-
-  margin: 16px auto ;
-  
+.navList {
+  margin: 16px auto;
 }
 
-.navList  li  .listButtons{
-  background: none;
-  border: none;
+.navList li .listButtons {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
- 
+  text-decoration: none;
   color: white;
   display: block;
   padding: 14px 16px;
   font-weight: 600;
-  margin: 0px 32px;
+  margin: 0 32px;
   border-radius: 8px;
-  
-
+  background: none;
+  border: none;
 }
 
-.navList  li  .listButtons:hover{
- 
-  color:#F2BB16;
-
+.navList li .listButtons:hover {
+  color: #F2BB16;
 }
 
-
-
-.contactButton{
-
+.contactButton {
   width: 200px;
   height: 43px;
- margin-top: 16px;
-
+  margin-top: 16px;
   text-decoration: none;
   background-color: black;
   color: #F2BB16;
-  border:#F2BB16 2px solid;
+  border: #F2BB16 2px solid;
   border-radius: 8px;
   border-style: solid;
-  border-color:#F2BB16;
+  border-color: #F2BB16;
   font-size: 18px;
 }
 
-
-
-
 .contactButton:hover {
-  box-shadow: 0px 0px 30px 0px rgba(255,255,2555,0.35);
-   color:black  ;
-   background-color:#F2BB16;
+  box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.35);
+  color: black;
+  background-color: #F2BB16;
 }
 
-/* Para centrar los elementos */
-ul {
-  display: flex;
-  justify-content: center;
+/* Consultas de medios para hacerlo responsive */
+@media screen and (max-width: 1024px) {
+  .navList li .listButtons {
+    font-size: 20px; /* Tamaño de fuente más pequeño para pantallas medianas */
+    margin: 0 24px; /* Ajuste del margen para pantallas medianas */
+  }
+
+  .contactButton {
+    width: 180px; /* Ancho ajustado para pantallas medianas */
+    font-size: 16px; /* Tamaño de fuente ajustado para pantallas medianas */
+  }
 }
 
-/* Para el botón de contacto */
-.right {
-  float: right;
+@media screen and (max-width: 768px) {
+  ul {
+    flex-direction: column; /* Apilar elementos verticalmente en pantallas más pequeñas */
+    align-items: center;
+  }
 
+  li {
+    float: none; /* Eliminar flotación para un mejor apilamiento */
+    margin-bottom: 8px; /* Agregar margen entre elementos */
+  }
+
+  .logo {
+    margin-left: 0; /* Ajuste del margen para pantallas más pequeñas */
+  }
+
+  .navList li .listButtons {
+    font-size: 18px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+    margin: 0 16px; /* Ajuste del margen para pantallas pequeñas */
+  }
+
+  .contactButton {
+    width: 160px; /* Ancho ajustado para pantallas pequeñas */
+    font-size: 14px; /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navList li .listButtons {
+    font-size: 16px; /* Tamaño de fuente más pequeño para pantallas muy pequeñas */
+    padding: 10px 12px; /* Ajuste de relleno para pantallas muy pequeñas */
+  }
+
+  .contactButton {
+    width: 140px; /* Ancho ajustado para pantallas muy pequeñas */
+    font-size: 12px; /* Tamaño de fuente ajustado para pantallas muy pequeñas */
+  }
 }

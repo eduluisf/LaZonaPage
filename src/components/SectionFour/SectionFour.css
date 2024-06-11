@@ -120,6 +120,6 @@
   }
 
   .cardContainer {
-    width: 100%; /* Full width for very small screens */
+    width: 85%; /* Full width for very small screens */
   }
 }

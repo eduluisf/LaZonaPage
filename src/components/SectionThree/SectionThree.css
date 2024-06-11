@@ -18,13 +18,14 @@
 
 .sectionThreeContainer-Main {
   position: relative;
-  margin-top: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   background-color: #F2BB16;
-  z-index: 0;
+
+
+
 }
 
 .sectionThreeContainer {
@@ -34,6 +35,7 @@
   width: 85%;
   z-index: 0;
   margin-bottom: 32px;
+
 }
 
 .sectionThreeContainer .sectionThreeContent {
@@ -173,6 +175,6 @@
   .imgThree-2,
   .imgThree-3,
   .imgThree-4 {
-    width: 100%; /* Full width for very small screens */
+    width: 85%; /* Full width for very small screens */
   }
 }
