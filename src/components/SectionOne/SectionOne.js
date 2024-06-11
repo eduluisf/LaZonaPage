@@ -1,6 +1,6 @@
 import React from "react";
 import './SectionOne.css';
-import fondo from '../../assets/FONDO.png';
+import fondo from '../../assets/FONDO.webp';
 
 import 'animate.css';
 
