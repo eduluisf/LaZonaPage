@@ -11,7 +11,7 @@
 }
 
 .iconsContainer li {
-  margin-top: 10%;
+  margin: 5px;
 }
 
 .whatsapp-button {
@@ -47,26 +47,18 @@
     height: 60px; /* Ajusta el tamaño del botón en pantallas móviles */
     margin-right: 5%;
   }
-  .iconsContainer li {
-    margin-top: 5%;
-  }
 }
 
 @media (max-width: 480px) {
   .iconsContainer {
     bottom: 10px; /* Ajusta la posición desde abajo para pantallas muy pequeñas */
-    margin-right: 3%;
-  
+    margin-right: 0%;
   }
 
-  .iconsContainer li {
-   margin: 0;
-  }
   .whatsapp-button {
 
     width: 50px; /* Ajusta el tamaño del botón en pantallas muy pequeñas */
     height: 50px; /* Ajusta el tamaño del botón en pantallas muy pequeñas */
     margin-right: 5%;
-    
   }
 }

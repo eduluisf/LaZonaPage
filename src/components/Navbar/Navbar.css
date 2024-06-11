@@ -16,7 +16,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 65%;
 }
 
 .navList ul {
@@ -108,7 +108,7 @@ nav {
 
 
     margin-bottom: 10px;
-    opacity: 1.2;
+  
   }
 
   .hamburger {
