@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 import Services from './pages/services/services';
 import Home from './pages/home/home';
+
 
 function App() {
   const [currentView, setCurrentView] = useState('home');
@@ -11,7 +13,7 @@ function App() {
   const renderView = () => {
     switch (currentView) {
       case 'home':
-        return  <Home/>;
+        return <Home />;
       case 'services':
         return <Services />;
       case 'projects':
@@ -22,9 +24,13 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="app-container">
+      
       <Navbar setCurrentView={setCurrentView} />
-      {renderView()}
+      <div className="content">
+        {renderView()}
+      </div>
+      <Footer />
     </div>
   );
 }

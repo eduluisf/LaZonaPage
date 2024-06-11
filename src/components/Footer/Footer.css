@@ -1,25 +1,72 @@
-/* src/components/Footer/Footer.css */
 .footer {
-    
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: #f2bb16;
-    text-align: center;
-    padding: 10px 0;
-    justify-content: space-between;
-  }
 
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: #f2bb16;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../../assets/asfalt-Orange.png');
+  background-size: cover; /* Ajustamos el tamaño de la imagen al tamaño del div */
+  background-repeat: no-repeat;
+}
 
-.footer  img{
-margin: 5% 0%;
-    width: 20%;
-  }
+.footer img {
+  margin: 5% 0;
+  width: 20%;
+  
+}
 
-  .footer  h4{
-    font-family: "Passion One", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 48px;
+.footer h4 {
+  font-family: "Passion One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 1024px) {
+
+  .footer img {
+
+    width: 500px;
+   
   }
   
+  .footer h4 {
+    font-size: 36px; /* Reducimos el tamaño del texto en pantallas más pequeñas */
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+
+  .footer img {
+
+    width: 300px;
+   
+  }
+  
+  .footer h4 {
+    font-size: 36px; /* Reducimos el tamaño del texto en pantallas más pequeñas */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer img {
+    width: 40%; /* Reducimos el tamaño de la imagen en pantallas más pequeñas */
+  }
+
+  .footer h4 {
+    font-size: 16px; /* Reducimos el tamaño del texto aún más en pantallas muy pequeñas */
+  }
+  .footer p {
+    font-size: 8px; /* Reducimos el tamaño del texto aún más en pantallas muy pequeñas */
+  }
+}

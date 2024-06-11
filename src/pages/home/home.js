@@ -7,6 +7,7 @@ import SectionFive from '../../components/SectionFive/SectionFive';
 import WhatsAppButton from '../../components/WhatsAppButton/WhatsAppButton';
 import Footer from '../../components/Footer/Footer';
 
+
 const Home = () => {
     return (
         <div>
@@ -16,7 +17,7 @@ const Home = () => {
         <SectionFour />
         <SectionFive />
         <WhatsAppButton phoneNumber="+573155355980" />
-        <Footer />
+     
         </div>
     );
 
