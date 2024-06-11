@@ -12,7 +12,6 @@ function App() {
     switch (currentView) {
       case 'home':
         return  <Home/>;
-          
       case 'services':
         return <Services />;
       case 'projects':

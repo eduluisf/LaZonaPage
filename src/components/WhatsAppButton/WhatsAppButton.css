@@ -1,47 +1,59 @@
-.iconsContainer{
-display: flex;
-flex-direction: column;
-bottom: 40px;
-position: fixed;
-z-index: 1000;
-justify-content: space-between;
-width: 96%;
-align-items: flex-end;
+.iconsContainer {
+  display: flex;
+  flex-direction: column;
+  bottom: 40px;
+  position: fixed;
+  z-index: 1000;
+  justify-content: space-between;
+  width: 100%; /* Ajuste para evitar el espacio extraño */
+  right: 10px; /* Alinea el contenedor a la derecha */
+  align-items: flex-end;
 }
 
-
-
-.iconsContainer li{
-
-
-margin:5px
-
-
+.iconsContainer li {
+  margin: 5px;
 }
 
 .whatsapp-button {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 3px #222222;
+  text-decoration: none;
+  border: white 1px solid;
+  width: 70px;
+  height: 70px;
+}
 
-    background-color: black;
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 2px 2px 3px #222222;
-  
-    text-decoration: none;
-    border: white 1px solid ;
-    width: 70px;
-    height: 70px;
-   
+.whatsapp-button:hover {
+  background-color: #7d610d;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .iconsContainer {
+    width: 10%;
+    align-items: center; /* Centra los iconos en pantallas móviles */
+    right: 0; /* Alinea el contenedor al centro */
+    bottom: 20px; /* Ajusta la posición desde abajo */
   }
 
-
-
-
-  
-  .whatsapp-button:hover {
-    background-color: #7d610d;
- 
+  .whatsapp-button {
+    width: 60px; /* Ajusta el tamaño del botón en pantallas móviles */
+    height: 60px; /* Ajusta el tamaño del botón en pantallas móviles */
   }
-  
+}
+
+@media (max-width: 480px) {
+  .iconsContainer {
+    bottom: 10px; /* Ajusta la posición desde abajo para pantallas muy pequeñas */
+  }
+
+  .whatsapp-button {
+    width: 50px; /* Ajusta el tamaño del botón en pantallas muy pequeñas */
+    height: 50px; /* Ajusta el tamaño del botón en pantallas muy pequeñas */
+  }
+}

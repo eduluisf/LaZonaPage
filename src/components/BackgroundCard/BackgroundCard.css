@@ -1,45 +1,38 @@
-
-
-
-
-
 .background-card {
-    display:  flex;
-    flex-direction: column;
-    position: relative;
-    width: 48%;
-    height:400px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    color: white;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
-    overflow: hidden;
-    border: white 1px solid;
-    border-radius: 8px ;
-
-   
-  }
-
-  .background-card:hover{
-    box-shadow: white  0px 5px 15px;
-    scale:1.02;
-   
-  }
-
-.background-card-content{
-    margin-left: 5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
 }
-  
+
+.background-card-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.background-card-content {
+  position: relative;
+  z-index: 2;
+  margin-left: 10%;
+}
+
 .background-card-content .background-card-title {
-    font-family: "Montserrat", sans-serif;
-    font-size: 42px;
-    font-weight: bold;
-  }
-  
- 
-.background-card-content .background-card-description{
-    font-family: "Montserrat", sans-serif;
-    font-size:32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.background-card-content .background-card-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
 }

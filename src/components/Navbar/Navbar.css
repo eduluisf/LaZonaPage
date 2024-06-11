@@ -1,90 +1,89 @@
 /* Navbar.css */
 
 nav {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding:  16px 32px ;
-    overflow: hidden;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  .logo {
-    margin-left: 20px; /* Ajusta el margen según sea necesario */
-  }
-  
-  .navList{
+}
 
-    margin: 16px auto ;
-    
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:  16px 32px ;
+  overflow: hidden;
+}
 
-  .navList  li  .listButtons{
-    background: none;
-    border: none;
-    font-family: "Montserrat", sans-serif;
-    font-size: 22px;
-   
-    color: white;
-    display: block;
-    padding: 14px 16px;
-    font-weight: 600;
-    margin: 0px 32px;
-    border-radius: 8px;
-    
+li {
+  float: left;
+}
+
+.logo {
+  margin-left: 20px; /* Ajusta el margen según sea necesario */
+}
+
+.navList{
+
+  margin: 16px auto ;
+  
+}
+
+.navList  li  .listButtons{
+  background: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
  
-  }
-
-  .navList  li  .listButtons:hover{
-   
-    color:#F2BB16;
+  color: white;
+  display: block;
+  padding: 14px 16px;
+  font-weight: 600;
+  margin: 0px 32px;
+  border-radius: 8px;
   
-  }
+
+}
+
+.navList  li  .listButtons:hover{
+ 
+  color:#F2BB16;
+
+}
 
 
 
-  .contactButton{
+.contactButton{
 
-    width: 200px;
-    height: 43px;
-   margin-top: 16px;
+  width: 200px;
+  height: 43px;
+ margin-top: 16px;
 
-    text-decoration: none;
-    background-color: black;
-    color: #F2BB16;
-    border:#F2BB16 2px solid;
-    border-radius: 8px;
-    border-style: solid;
-    border-color:#F2BB16;
-    font-size: 18px;
-  }
-
-
+  text-decoration: none;
+  background-color: black;
+  color: #F2BB16;
+  border:#F2BB16 2px solid;
+  border-radius: 8px;
+  border-style: solid;
+  border-color:#F2BB16;
+  font-size: 18px;
+}
 
 
-  .contactButton:hover {
-    box-shadow: 0px 0px 30px 0px rgba(255,255,2555,0.35);
-     color:black  ;
-     background-color:#F2BB16;
-  }
-  
-  /* Para centrar los elementos */
-  ul {
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* Para el botón de contacto */
-  .right {
-    float: right;
 
-  }
-  
+
+.contactButton:hover {
+  box-shadow: 0px 0px 30px 0px rgba(255,255,2555,0.35);
+   color:black  ;
+   background-color:#F2BB16;
+}
+
+/* Para centrar los elementos */
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+/* Para el botón de contacto */
+.right {
+  float: right;
+
+}

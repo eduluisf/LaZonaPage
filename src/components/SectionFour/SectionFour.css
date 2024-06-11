@@ -1,73 +1,47 @@
-
-  
-
-.sectionFourContainer-Main{
-
+.sectionFourContainer-Main {
   position: relative;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color:  black;
-
-} 
-
-
-.sectionFourContainer{
-
-  display: flex;
-  align-items: center;
-width: 85%;
-  align-items: row;
-color: #F2BB16;
-margin-top: 10%;
-margin-bottom: 32px;
-
+  background-color: black;
 }
 
+.sectionFourContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 85%;
+  color: #F2BB16;
+  margin-top: 10%;
+  margin-bottom: 32px;
+}
 
-.sectionFourContainer .ssectionFourContent{
-
-
-  display:  flex;
+.sectionFourContainer .sectionFourContent {
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 30%;
-
-
   margin-bottom: 32px;
-  margin-bottom: 30%;
 }
 
-.sectionFourContent h3{
-
- 
-    font-family: "Passion One", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+.sectionFourContent h3 {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 72px;
-
- color: #F2BB16;
- margin:  0px 128px 0px 0px;
-  
+  color: #F2BB16;
+  margin: 0 128px 0 0;
 }
 
-.sectionFourContainer p{
-
- 
-
+.sectionFourContainer p {
   width: 50%;
-
-font-size: 22px;
-
-color: white;
-margin-right: 5%;
-
+  font-size: 22px;
+  color: white;
+  margin-right: 5%;
 }
 
-
-.sectionFourContent-Two{
+.sectionFourContent-Two {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,7 +50,20 @@ margin-right: 5%;
   margin-top: 32px;
 }
 
-.sectionFourContent-Three{
+.cardContainer {
+  width: 45%;
+  height: 350px;
+  overflow: hidden;
+  border: white 1px solid;
+  border-radius: 8px;
+}
+
+.cardContainer:hover {
+  box-shadow: white 0px 5px 15px;
+  scale: 1.02;
+}
+
+.sectionFourContent-Three {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,5 +71,55 @@ margin-right: 5%;
   margin-bottom: 10%;
 }
 
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .sectionFourContent h3 {
+    font-size: 56px; /* Smaller font size for medium screens */
+  }
 
+  .cardContainer {
+    height: 300px; /* Adjust height for medium screens */
+  }
+}
 
+@media (max-width: 768px) {
+  .sectionFourContainer {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: center;
+  }
+
+  .sectionFourContent h3 {
+    font-size: 48px; /* Smaller font size for mobile */
+    margin: 0 0 16px 0; /* Adjust margin for mobile */
+    text-align: center; /* Center text on mobile */
+  }
+
+  .sectionFourContainer p {
+    width: 100%; /* Full width for mobile */
+    margin: 0 0 16px 0; /* Adjust margin for mobile */
+    text-align: center; /* Center text on mobile */
+  }
+
+  .sectionFourContent-Two,
+  .sectionFourContent-Three {
+    flex-direction: column; /* Stack images vertically */
+    width: 100%; /* Full width for mobile */
+    align-items: center;
+  }
+
+  .cardContainer {
+    width: 90%; /* Adjust width for mobile */
+    height: auto; /* Auto height for mobile */
+    margin-bottom: 16px; /* Add margin between images */
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionFourContent h3 {
+    font-size: 36px; /* Smaller font size for very small screens */
+  }
+
+  .cardContainer {
+    width: 100%; /* Full width for very small screens */
+  }
+}

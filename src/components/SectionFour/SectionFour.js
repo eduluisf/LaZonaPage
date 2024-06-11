@@ -17,16 +17,25 @@ const SectionSix = () => {
 
             <div className="sectionFourContent-Two">
 
+                <div className="cardContainer">
+                    
                 <BackgroundCard title="Mi Título" backgroundImage={image4_1} description="asdasdasdasdasd"
                 />
+                </div>
+                <div className="cardContainer">
                 <BackgroundCard title="Mi Título" backgroundImage={image4_1} description="asdasdasdasdasd"
                 />
+                   </div>
             </div>
             <div className="sectionFourContent-Three">
-                <BackgroundCard title="Mi Título" backgroundImage={image4_1 }description="asdasdasdasdasd"
+                   <div className="cardContainer">
+                <BackgroundCard title="Mi Título" backgroundImage={image4_1} description="asdasdasdasdasd"
+                     />
+                   </div>
+                   <div className="cardContainer">
+                <BackgroundCard title="Mi Título" backgroundImage={image4_1} description="asdasdasdasdasd"
                 />
-                <BackgroundCard title="Mi Título" backgroundImage={image4_1 }description="asdasdasdasdasd"
-                />
+                   </div>
             </div>
         </div>
 

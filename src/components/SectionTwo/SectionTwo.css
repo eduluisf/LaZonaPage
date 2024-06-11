@@ -18,3 +18,58 @@ margin:15% 0px;
     margin: 5% 0%;
 }
 
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .sectionTwoContent {
+    top: 72%; /* Adjust the top position for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionTwoContent {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    top: 140%; /* Adjust the top position for small screens */
+    max-width: 768px;
+  }
+
+  .sectionTwoContainer {
+    margin: 0; /* Adjust the margin for small screens */
+  }
+
+  .imgSectionTwo {
+    width: 40%; /* Adjust the image width for small screens */
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTwoContent {
+    top: 80%; /* Adjust the top position for very small screens */
+    padding: 10% 0; /* Add padding for very small screens */
+  }
+
+  .sectionTwoContainer {
+    margin: 5% 0; /* Adjust the margin for very small screens */
+  }
+
+  .imgSectionTwo {
+    width: 60%; /* Adjust the image width for very small screens */
+    margin: 10% 0;
+    margin-left: 20%;
+  }
+}
+
+/* Specific adjustment for iPhone 12 resolution */
+@media only screen and (min-device-width: 1170px) and (max-device-width: 1170px) and (orientation: portrait) {
+  .sectionTwoContent {
+    top: 30%; /* Adjust the top position specifically for iPhone 12 in portrait mode */
+  }
+}
+
+@media only screen and (min-device-width: 1170px) and (max-device-width: 1170px) and (orientation: landscape) {
+  .sectionTwoContent {
+    top: 120%; /* Adjust the top position specifically for iPhone 12 in landscape mode */
+  }
+}
