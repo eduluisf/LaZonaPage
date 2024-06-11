@@ -8,10 +8,13 @@
   width: 100%; /* Ajuste para evitar el espacio extraño */
   right: 10px; /* Alinea el contenedor a la derecha */
   align-items: flex-end;
+
 }
 
 .iconsContainer li {
   margin: 5px;
+  list-style: none;
+
 }
 
 .whatsapp-button {

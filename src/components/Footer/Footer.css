@@ -1,0 +1,25 @@
+/* src/components/Footer/Footer.css */
+.footer {
+    
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #f2bb16;
+    text-align: center;
+    padding: 10px 0;
+    justify-content: space-between;
+  }
+
+
+  img{
+margin: 5% 0%;
+    width: 20%;
+  }
+
+  h4{
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+  }
+  

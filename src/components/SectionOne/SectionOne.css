@@ -62,7 +62,7 @@
       
     }
     .textContainer {
-      margin-left: 10%;
+      margin-left: 5%;
       margin-bottom: 5%;
     }
   }
@@ -96,7 +96,6 @@
     }
     .textContainer {
       margin-bottom: 15%;
-      margin-left: 0%;
     }
     .sectionOneContainer h1 {
       font-size: 36px;  /* Smaller font size for very small screens */
