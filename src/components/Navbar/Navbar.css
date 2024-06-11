@@ -1,48 +1,53 @@
-/* Navbar.css */
-
 nav {
   background-color: black;
   color: white;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 16px 32px;
-  overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-}
-
-li {
-  float: left;
+  padding: 16px 32px; /* Mantén el padding original */
 }
 
 .logo {
   margin-left: 20px; /* Ajusta el margen según sea necesario */
+  width: 100px; /* Reduzco el tamaño del logo */
 }
 
 .navList {
-  margin: 16px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
+.navList ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navList li {
+  margin-right: 50px;
+}
+
+
+
 .navList li .listButtons {
+  background: none;
+  border: none;
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
-  text-decoration: none;
   color: white;
   display: block;
   padding: 14px 16px;
   font-weight: 600;
-  margin: 0 32px;
   border-radius: 8px;
-  background: none;
-  border: none;
 }
 
 .navList li .listButtons:hover {
-  color: #F2BB16;
+  color: #f2bb16;
 }
 
 .contactButton {
@@ -51,67 +56,87 @@ li {
   margin-top: 16px;
   text-decoration: none;
   background-color: black;
-  color: #F2BB16;
-  border: #F2BB16 2px solid;
+  color: #f2bb16;
+  border: #f2bb16 2px solid;
   border-radius: 8px;
   border-style: solid;
-  border-color: #F2BB16;
   font-size: 18px;
 }
 
 .contactButton:hover {
-  box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.35);
+  box-shadow: 0px 0px 30px 0px rgba(255, 255, 2555, 0.35);
   color: black;
-  background-color: #F2BB16;
+  background-color: #f2bb16;
 }
 
-/* Consultas de medios para hacerlo responsive */
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
-  .navList li .listButtons {
-    font-size: 20px; /* Tamaño de fuente más pequeño para pantallas medianas */
-    margin: 0 24px; /* Ajuste del margen para pantallas medianas */
+  .navList {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1; /* Asegura que el menú hamburguesa esté por encima */
+    opacity: 0.8;
+  
   }
 
-  .contactButton {
-    width: 180px; /* Ancho ajustado para pantallas medianas */
-    font-size: 16px; /* Tamaño de fuente ajustado para pantallas medianas */
-  }
-}
+  .navList.open {
 
-@media screen and (max-width: 768px) {
-  ul {
-    flex-direction: column; /* Apilar elementos verticalmente en pantallas más pequeñas */
+    display: flex;
+  }
+
+  .navList ul {
+    margin-left: 5%;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+
+    display: flex;
   }
 
-  li {
-    float: none; /* Eliminar flotación para un mejor apilamiento */
-    margin-bottom: 8px; /* Agregar margen entre elementos */
+  .navList li {
+
+
+    margin-bottom: 10px;
+    opacity: 1.2;
   }
 
-  .logo {
-    margin-left: 0; /* Ajuste del margen para pantallas más pequeñas */
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin-right: 20px;
+    z-index: 2; /* Asegura que el icono hamburguesa esté por encima */
   }
 
-  .navList li .listButtons {
-    font-size: 18px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
-    margin: 0 16px; /* Ajuste del margen para pantallas pequeñas */
+  .hamburger svg {
+    width: 30px;
+    height: 30px;
+    color: white;
   }
 
   .contactButton {
-    width: 160px; /* Ancho ajustado para pantallas pequeñas */
-    font-size: 14px; /* Tamaño de fuente ajustado para pantallas pequeñas */
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 0;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .navList li .listButtons {
-    font-size: 16px; /* Tamaño de fuente más pequeño para pantallas muy pequeñas */
-    padding: 10px 12px; /* Ajuste de relleno para pantallas muy pequeñas */
+  .logo img {
+    width: 100px;
   }
 
-  .contactButton {
-    width: 140px; /* Ancho ajustado para pantallas muy pequeñas */
-    font-size: 12px; /* Tamaño de fuente ajustado para pantallas muy pequeñas */
+  .navList ul {
+    margin-left: 15%;
   }
 }

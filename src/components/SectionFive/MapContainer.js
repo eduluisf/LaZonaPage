@@ -36,6 +36,7 @@ class MapContainer extends Component {
       updatedStyles.marginLeft = '5%';
       updatedStyles.height = '58vh'; // Ajusta el height para pantallas más pequeñas
     }
+
     if (width <= 1200) {
       updatedStyles.width = '90%';
       updatedStyles.marginLeft = '5%';
@@ -51,7 +52,7 @@ class MapContainer extends Component {
     if (width <= 768) {
       updatedStyles.width = '85%';
       updatedStyles.marginLeft = '8%';
-      updatedStyles.height = '80vh'; // Ajusta el height para pantallas más pequeñas
+      updatedStyles.height = '75vh'; // Ajusta el height para pantallas más pequeñas
     }
 
     this.setState({ mapContainerStyles: updatedStyles });

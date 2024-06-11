@@ -11,7 +11,7 @@
 }
 
 .iconsContainer li {
-  margin: 5px;
+  margin-top: 10%;
 }
 
 .whatsapp-button {
@@ -39,21 +39,34 @@
     align-items: center; /* Centra los iconos en pantallas móviles */
     right: 0; /* Alinea el contenedor al centro */
     bottom: 20px; /* Ajusta la posición desde abajo */
+    margin-right: 0%;
   }
 
   .whatsapp-button {
     width: 60px; /* Ajusta el tamaño del botón en pantallas móviles */
     height: 60px; /* Ajusta el tamaño del botón en pantallas móviles */
+    margin-right: 5%;
+  }
+  .iconsContainer li {
+    margin-top: 5%;
   }
 }
 
 @media (max-width: 480px) {
   .iconsContainer {
     bottom: 10px; /* Ajusta la posición desde abajo para pantallas muy pequeñas */
+    margin-right: 3%;
+  
   }
 
+  .iconsContainer li {
+   margin: 0;
+  }
   .whatsapp-button {
+
     width: 50px; /* Ajusta el tamaño del botón en pantallas muy pequeñas */
     height: 50px; /* Ajusta el tamaño del botón en pantallas muy pequeñas */
+    margin-right: 5%;
+    
   }
 }
