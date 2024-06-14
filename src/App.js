@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 
 import Services from './pages/services/services';
 import Home from './pages/home/home';
+import Contact from './pages/contact/contact';
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
         return <Home />;
       case 'services':
         return <Services />;
+       case 'contact':
+        return <Contact/>;
       case 'projects':
         return <div>Projects Page Content</div>;
       default:

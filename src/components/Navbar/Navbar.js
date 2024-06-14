@@ -22,7 +22,7 @@ const Navbar = ({ setCurrentView }) => {
           <li><button className="listButtons" onClick={() => setCurrentView('services')}>Servicios</button></li>
           <li><button className="listButtons" onClick={() => setCurrentView('projects')}>Proyectos</button></li>
         </ul>
-        <button className="contactButton">Contacto</button>
+        <button className="contactButton"  onClick={() => setCurrentView('contact')}>Contacto</button>
       </div>
     </nav>
   );

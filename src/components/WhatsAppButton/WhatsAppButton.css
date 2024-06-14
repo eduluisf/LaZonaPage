@@ -53,7 +53,7 @@
 @media (max-width: 480px) {
   .iconsContainer {
     bottom: 10px; /* Ajusta la posición desde abajo para pantallas muy pequeñas */
-    margin-right: 0%;
+    margin-right: 5%;
   }
 
   .whatsapp-button {

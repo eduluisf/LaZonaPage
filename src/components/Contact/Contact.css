@@ -1,0 +1,137 @@
+/* src/Contact.css */
+.contact-container {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.LeftContactContent-Containter {
+  width: 50%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, #2b2104 0px 4px 8px;
+  color: #f2bb16;
+}
+
+.LeftContactContent-Containter img {
+  width: 80%;
+}
+
+.RightContactContent-Containter {
+  width: 50%;
+  background-color: #f2bb16;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LeftContactContent-Containter h2 {
+  width: 90%;
+  font-family: "Passion One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 52px;
+  text-align: center;
+}
+
+.RightContactContent-Containter .ButtonContainer {
+  display: flex;
+  border: none;
+  width: 40%;
+  height: 80px;
+  margin: 16px 0px;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ButtonContainer p {
+  font-size: 24px;
+}
+
+.ButtonContainer:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 38px, rgba(0, 0, 0, 0.22) 0px 8px 12px;
+  transform: translateY(-10px);
+}
+
+/* Media query for tablets */
+@media (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .LeftContactContent-Containter, .RightContactContent-Containter {
+    width: 100%;
+    height: 50%;
+  }
+
+  .RightContactContent-Containter .ButtonContainer {
+    width: 60%;
+    height: 70px;
+  }
+
+  .ButtonContainer p {
+    font-size: 22px;
+  }
+
+  .LeftContactContent-Containter h2 {
+    font-size: 42px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+ 
+
+  .LeftContactContent-Containter, .RightContactContent-Containter {
+    width: 100%;
+    height: 50%;
+  }
+
+  .RightContactContent-Containter .ButtonContainer {
+    width: 70%;
+    height: 60px;
+  }
+
+  .ButtonContainer p {
+    font-size: 20px;
+  }
+
+  .LeftContactContent-Containter h2 {
+    font-size: 36px;
+  }
+}
+
+/* Media query for small mobile devices */
+@media (max-width: 480px) {
+  .contact-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .LeftContactContent-Containter, .RightContactContent-Containter {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .RightContactContent-Containter .ButtonContainer {
+    width: 90%;
+    height: 50px;
+  }
+
+  .ButtonContainer p {
+    font-size: 18px;
+  }
+
+  .LeftContactContent-Containter h2 {
+    font-size: 28px;
+  }
+}
